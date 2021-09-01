@@ -1,0 +1,6 @@
+/*Тут вспомогательные классы*/
+.no-style-button {
+    border: none;
+    background: transparent;
+    outline: none!important;
+}

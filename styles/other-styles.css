@@ -1,0 +1,74 @@
+/*Переменные*/
+:root {
+    --max-container: 1800px;
+}
+
+* {
+    box-sizing: border-box;
+    min-height: 0;
+    min-width: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+/*Контейнер обертка*/
+.container {
+    width: 100%;
+    display: flex;
+}
+
+/*Внутренний контэйнер с элементами, имеет отступы по бокам*/
+.container > .inner {
+    width: 100%;
+    margin: auto;
+    max-width: var(--max-container);
+    padding: 0 50px;
+    justify-content: center;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: #EFEFEF;
+    border-width: 0px;
+    margin: 0;
+}
+
+.media{
+    display: none;
+}
+
+section.mobile-menu{
+    display: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.vertical-stripe{
+    background-color: #E8ECF7;
+    width: 2px;
+    height: 100%;
+}
+
