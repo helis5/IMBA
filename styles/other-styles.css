@@ -48,9 +48,9 @@ body {
 
 hr {
     width: 100%;
-    height: 1px;
-    background-color: #EFEFEF;
-    border-width: 0px;
+    height: 2px;
+    background-color: #959CB1;
+    border-width: 0;
     margin: 0;
 }
 
