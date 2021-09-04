@@ -139,6 +139,10 @@ main .main-container .stock-container .inner .options .option {
     padding: 40px 27px;
 }
 
+main .main-container .stock-container .inner .options .option:hover {
+    border: 1px solid #FFC602;
+}
+
 main .main-container .stock-container .inner .options .option img{
     width: 170px;
 }
@@ -207,4 +211,270 @@ main .main-container .stock-container .inner .options .option button.add-to-cart
 
 main .main-container .stock-container .inner .options .option button.add-to-cart p{
     margin: 0;
+}
+
+main .main-container .stock-container .inner .options .option button.add-to-cart:hover{
+    background-color: #FFC602;
+    border: 0;
+}
+
+main .main-container .spring-discounts-and-keyboard{
+    width: 100%;
+    height: 200px;
+}
+
+main .main-container .spring-discounts-and-keyboard-container .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+}
+
+main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 119px;
+}
+
+main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts p.big-text{
+    margin: 0;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts p.small-text{
+    margin: 0;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+main .main-container .spring-discounts-and-keyboard-container .inner .keyboard{
+    width: 465px;
+}
+
+main .main-container .spring-discounts-and-keyboard-container .inner .keyboard img{
+    width: inherit;
+}
+
+main .main-container .top-sales-container {
+    width: 100%;
+    height: 761px;
+    background-color: #FCFDFD;
+}
+
+main .main-container .top-sales-container .inner {
+
+}
+
+main .main-container .top-sales-container .inner p#stock-text{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main .main-container .top-sales-container .inner .options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    margin-top: 50px;
+}
+
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container{
+    width: 482px;
+    height: 520px;
+    background-color: #FFC602;
+    padding: 60px 36px;
+}
+
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 255px;
+    height: 210px;
+    position: relative;
+}
+
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text .big-text{
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text .small-text{
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text button{
+    width: 130px;
+    height: 30px;
+    border: 0;
+    background-color: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 253px;
+    height: 100%;
+    margin-top: 50px;
+}
+
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img img{
+    width: inherit;
+}
+
+main .main-container .top-sales-container .inner .options .option {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 224px;
+    height: inherit;
+    background-color: white;
+    border: 1px solid #C4C4C4;
+    border-radius: 1px;
+    padding: 40px 27px;
+}
+
+main .main-container .top-sales-container .inner .options .option:hover {
+    border: 1px solid #FFC602;
+}
+
+main .main-container .top-sales-container .inner .options .option img{
+    width: 170px;
+}
+
+main .main-container .top-sales-container .inner .options .option .model-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 135px;
+    align-items: center;
+    font-size: 10px;
+    color: #C4C4C4;
+}
+
+main .main-container .top-sales-container .inner .options .option .model-information p{
+    margin: 0;
+}
+
+main .main-container .top-sales-container .inner .options .option p.text{
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+main .main-container .top-sales-container .inner .options .option p.price{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main .main-container .top-sales-container .inner .options .option .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 1px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #FFC602, #D86E0D);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+main .main-container .top-sales-container .inner .options .option .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+
+main .main-container .top-sales-container .inner .options .option .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+main .main-container .top-sales-container .inner .options .option button.add-to-cart {
+    width: 152px;
+    height: 35px;
+    border: 1px solid #E8ECF7;
+    background-color: inherit;
+}
+
+main .main-container .top-sales-container .inner .options .option button.add-to-cart:hover{
+    background-color: #FFC602;
+    border: 0;
+}
+
+main .main-container .top-sales-container .inner .options .option button.add-to-cart p{
+    margin: 0;
+}
+
+main .main-container .subscribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    background-image: url(../images/Текстура.png);
+    background-color: #EDEDED;
+}
+
+main .main-container .subscribe-container .email-subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 630px;
+    height: 55px;
+}
+
+main .main-container .subscribe-container .email-subscribe .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 444px;
+    height: inherit;
+    background-color: white;
+    padding: 0 10px;
+}
+
+main .main-container .subscribe-container .email-subscribe .input input{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main .main-container .subscribe-container .email-subscribe button {
+    width: 186px;
+    height: 100%;
+    background-color: #FFC602;
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
 }
