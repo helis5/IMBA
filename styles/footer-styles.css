@@ -1,0 +1,81 @@
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+footer #footer-container {
+    width: inherit;
+    height: 343px;
+}
+
+footer #footer-container .inner{
+
+}
+
+footer #footer-container .inner .columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    height: 244px;
+}
+
+footer #footer-container .inner .columns .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 177px;
+    height: inherit;
+}
+
+footer #footer-container .inner .columns .column a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer #footer-container .inner .columns .column a svg{
+    display: none;
+}
+
+footer #footer-container .inner .columns .column a:hover{
+    color: #FFC602;
+    cursor: pointer;
+}
+
+footer #footer-container .inner .columns .column a:hover svg{
+    display: flex;
+    margin-right: 6px;
+    min-width: 6px;
+    min-height: 6px;
+}
+
+footer #under-the-footer-container {
+    width: inherit;
+    height: 57px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+footer #under-the-footer-container .inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer #under-the-footer-container .inner .payment-systems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+
+footer #under-the-footer-container .inner .payment-systems img{
+    width: 49px;
+    height: 30px;
+}
+
