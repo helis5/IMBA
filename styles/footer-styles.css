@@ -20,6 +20,7 @@ footer #footer-container .inner .columns{
     align-items: center;
     width: inherit;
     height: 244px;
+    color: #444444;
 }
 
 footer #footer-container .inner .columns .column{
@@ -27,26 +28,65 @@ footer #footer-container .inner .columns .column{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 177px;
+    width: 179px;
     height: inherit;
 }
 
-footer #footer-container .inner .columns .column a{
+footer #footer-container .inner .columns .column img{
+    width: 64px;
+}
+
+footer #footer-container .inner .columns .column p{
+    margin: 0;
+}
+
+footer #footer-container .inner .columns .column p.town{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer #footer-container .inner .columns .column p.street{
+    font-size: 14px;
+}
+
+footer #footer-container .inner .columns .column a.phone-number{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer #footer-container .inner .columns .column a.e-mail{
+    font-size: 14px;
+}
+
+footer #footer-container .inner .columns .column p.schedule{
+    font-size: 14px;
+    color: black;
+}
+
+footer #footer-container .inner .columns .column a.heading{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer #footer-container .inner .columns .column a.paragraph{
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-weight: 500;
+    font-size: 14px;
 }
 
-footer #footer-container .inner .columns .column a svg{
+footer #footer-container .inner .columns .column a.paragraph svg{
     display: none;
 }
 
-footer #footer-container .inner .columns .column a:hover{
+footer #footer-container .inner .columns .column a.paragraph:hover{
     color: #FFC602;
     cursor: pointer;
+    font-weight: bold;
 }
 
-footer #footer-container .inner .columns .column a:hover svg{
+footer #footer-container .inner .columns .column a.paragraph:hover svg{
     display: flex;
     margin-right: 6px;
     min-width: 6px;
