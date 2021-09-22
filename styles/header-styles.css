@@ -88,6 +88,10 @@ header .header-container section.main-part {
     height: 88px;
 }
 
+header .header-container section.main-part-media {
+    display: none;
+}
+
 header .header-container section.main-part img {
     width: 70px;
 }
