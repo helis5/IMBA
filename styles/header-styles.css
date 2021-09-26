@@ -216,6 +216,7 @@ header .header-container section.menu button{
     font-size: 14px;
     border: 0;
     background-color: inherit;
+    outline: 0;
 }
 
 header .header-container section.menu button:hover{

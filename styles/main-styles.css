@@ -20,18 +20,21 @@ main .main-container section.discount-container {
     height: 521px;
 }
 
+main .leaf-through{
+    display: none;
+}
+
 main .main-container section.discount-container .inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 521px;
+    height: inherit;
 }
 
 main .main-container section.discount-container .person {
     width: 489px;
-
 }
 
 main .main-container section.discount-container .person img {
@@ -44,6 +47,7 @@ main .main-container section.discount-container .discount-and-images {
     align-items: flex-end;
     justify-content: space-between;
     width: 728px;
+    min-width: 728px;
     height: inherit;
     padding: 50px 0;
 }
@@ -103,7 +107,7 @@ main .main-container section.discount-container .discount-and-images .discount b
 
 main .main-container .stock-container {
     width: 100%;
-    height: 761px;
+    height: inherit;
     background-color: #FCFDFD;
 }
 
@@ -111,7 +115,7 @@ main .main-container .stock-container .inner {
 
 }
 
-main .main-container .stock-container .inner p#stock-text{
+main .main-container .stock-container .inner p#stock-text {
     font-weight: bold;
     font-size: 24px;
 }
@@ -143,11 +147,11 @@ main .main-container .stock-container .inner .options .option:hover {
     border: 1px solid #FFC602;
 }
 
-main .main-container .stock-container .inner .options .option img{
+main .main-container .stock-container .inner .options .option img {
     width: 170px;
 }
 
-main .main-container .stock-container .inner .options .option .model-information{
+main .main-container .stock-container .inner .options .option .model-information {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -157,17 +161,17 @@ main .main-container .stock-container .inner .options .option .model-information
     color: #C4C4C4;
 }
 
-main .main-container .stock-container .inner .options .option .model-information p{
+main .main-container .stock-container .inner .options .option .model-information p {
     margin: 0;
 }
 
-main .main-container .stock-container .inner .options .option p.text{
+main .main-container .stock-container .inner .options .option p.text {
     font-weight: 500;
     font-size: 14px;
     margin: 0;
 }
 
-main .main-container .stock-container .inner .options .option p.price{
+main .main-container .stock-container .inner .options .option p.price {
     font-weight: bold;
     font-size: 18px;
 }
@@ -209,21 +213,21 @@ main .main-container .stock-container .inner .options .option button.add-to-cart
     background-color: inherit;
 }
 
-main .main-container .stock-container .inner .options .option button.add-to-cart p{
+main .main-container .stock-container .inner .options .option button.add-to-cart p {
     margin: 0;
 }
 
-main .main-container .stock-container .inner .options .option button.add-to-cart:hover{
+main .main-container .stock-container .inner .options .option button.add-to-cart:hover {
     background-color: #FFC602;
     border: 0;
 }
 
-main .main-container .spring-discounts-and-keyboard{
+main .main-container .spring-discounts-and-keyboard {
     width: 100%;
     height: 200px;
 }
 
-main .main-container .spring-discounts-and-keyboard-container .inner{
+main .main-container .spring-discounts-and-keyboard-container .inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -232,30 +236,30 @@ main .main-container .spring-discounts-and-keyboard-container .inner{
     height: inherit;
 }
 
-main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts{
+main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 119px;
 }
 
-main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts p.big-text{
+main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts p.big-text {
     margin: 0;
     font-weight: bold;
     font-size: 64px;
 }
 
-main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts p.small-text{
+main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts p.small-text {
     margin: 0;
     font-weight: 500;
     font-size: 36px;
 }
 
-main .main-container .spring-discounts-and-keyboard-container .inner .keyboard{
+main .main-container .spring-discounts-and-keyboard-container .inner .keyboard {
     width: 465px;
 }
 
-main .main-container .spring-discounts-and-keyboard-container .inner .keyboard img{
+main .main-container .spring-discounts-and-keyboard-container .inner .keyboard img {
     width: inherit;
 }
 
@@ -269,7 +273,7 @@ main .main-container .top-sales-container .inner {
 
 }
 
-main .main-container .top-sales-container .inner p#stock-text{
+main .main-container .top-sales-container .inner p#stock-text {
     font-weight: bold;
     font-size: 24px;
 }
@@ -284,20 +288,20 @@ main .main-container .top-sales-container .inner .options {
     margin-top: 50px;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container {
     width: 482px;
     height: 520px;
     background-color: #FFC602;
     padding: 60px 36px;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers {
     display: flex;
     flex-direction: row;
     height: 100%;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -306,19 +310,19 @@ main .main-container .top-sales-container .inner .options .choice-of-gamers-cont
     position: relative;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text .big-text{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text .big-text {
     margin: 0;
     font-weight: bold;
     font-size: 50px;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text .small-text{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text .small-text {
     margin: 0;
     font-weight: 500;
     font-size: 18px;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text button{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text button {
     width: 130px;
     height: 30px;
     border: 0;
@@ -328,7 +332,7 @@ main .main-container .top-sales-container .inner .options .choice-of-gamers-cont
     margin-top: 30px;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -337,7 +341,7 @@ main .main-container .top-sales-container .inner .options .choice-of-gamers-cont
     margin-top: 50px;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img img{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img img {
     width: inherit;
 }
 
@@ -358,11 +362,11 @@ main .main-container .top-sales-container .inner .options .option:hover {
     border: 1px solid #FFC602;
 }
 
-main .main-container .top-sales-container .inner .options .option img{
+main .main-container .top-sales-container .inner .options .option img {
     width: 170px;
 }
 
-main .main-container .top-sales-container .inner .options .option .model-information{
+main .main-container .top-sales-container .inner .options .option .model-information {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -372,17 +376,17 @@ main .main-container .top-sales-container .inner .options .option .model-informa
     color: #C4C4C4;
 }
 
-main .main-container .top-sales-container .inner .options .option .model-information p{
+main .main-container .top-sales-container .inner .options .option .model-information p {
     margin: 0;
 }
 
-main .main-container .top-sales-container .inner .options .option p.text{
+main .main-container .top-sales-container .inner .options .option p.text {
     font-weight: 500;
     font-size: 14px;
     margin: 0;
 }
 
-main .main-container .top-sales-container .inner .options .option p.price{
+main .main-container .top-sales-container .inner .options .option p.price {
     font-weight: bold;
     font-size: 18px;
 }
@@ -424,12 +428,12 @@ main .main-container .top-sales-container .inner .options .option button.add-to-
     background-color: inherit;
 }
 
-main .main-container .top-sales-container .inner .options .option button.add-to-cart:hover{
+main .main-container .top-sales-container .inner .options .option button.add-to-cart:hover {
     background-color: #FFC602;
     border: 0;
 }
 
-main .main-container .top-sales-container .inner .options .option button.add-to-cart p{
+main .main-container .top-sales-container .inner .options .option button.add-to-cart p {
     margin: 0;
 }
 
@@ -443,7 +447,7 @@ main .main-container .subscribe-container {
     background-color: #EDEDED;
 }
 
-main .main-container .subscribe-container .email-subscribe{
+main .main-container .subscribe-container .email-subscribe {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -451,7 +455,7 @@ main .main-container .subscribe-container .email-subscribe{
     height: 55px;
 }
 
-main .main-container .subscribe-container .email-subscribe .input{
+main .main-container .subscribe-container .email-subscribe .input {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -461,7 +465,7 @@ main .main-container .subscribe-container .email-subscribe .input{
     padding: 0 10px;
 }
 
-main .main-container .subscribe-container .email-subscribe .input input{
+main .main-container .subscribe-container .email-subscribe .input input {
     width: 100%;
     height: 100%;
     border: 0;

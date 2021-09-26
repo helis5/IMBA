@@ -3,7 +3,13 @@
 }
 
 @media screen and (max-width: 1140px) {
+    .container > .inner {
+        padding: 0 17px;
+    }
 
+    .no-media{
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 960px) {
