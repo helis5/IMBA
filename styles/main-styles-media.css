@@ -102,6 +102,128 @@
     main .main-container .stock-container .inner .options {
         justify-content: center;
     }
+
+
+    main .main-container .spring-discounts-and-keyboard-container{
+        height: 58px;
+    }
+
+    main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts p.big-text {
+        font-size: 18.56px;
+        margin-top: 10px;
+    }
+
+    main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts p.small-text {
+        font-size: 10.44px;
+        margin-bottom: 10px;
+    }
+
+    main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts{
+        min-width: auto;
+    }
+
+    /*llllllllllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+
+    main .main-container .top-sales-container .inner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .main-container .top-sales-container .inner .flipping{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main .main-container .top-sales-container .inner .flipping .leaf-through{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 50px;
+        height: 17px;
+    }
+
+    main .main-container .top-sales-container .inner .flipping .leaf-through button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: inherit;
+        border: 1px solid #D3DBE6;
+        border-radius: 50px;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+    }
+
+    main .main-container .top-sales-container .inner .flipping .leaf-through button:hover{
+        border: 1px solid #FFC602;
+    }
+
+    main .main-container .top-sales-container .inner .flipping .leaf-through button:hover svg path{
+        fill: #FFC602;
+    }
+
+    main .main-container .top-sales-container .inner .flipping .leaf-through button:hover svg {
+        width: 8px;
+        height: 11px;
+    }
+
+    main .main-container .top-sales-container .inner .flipping .leaf-through button svg{
+
+    }
+
+
+    main .main-container .top-sales-container .inner .options {
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 1114px;
+    }
+
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container{
+        width: 100%;
+        height: 403px;
+        padding: 40px 10px;
+    }
+
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text{
+        height: 180px;
+    }
+
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text .big-text {
+        font-size: 38px;
+    }
+
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text .small-text {
+        font-size: 13px;
+    }
+
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text button {
+        width: 109px;
+        height: 30px;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img{
+        width: 169px;
+        height: 241px;
+        margin-top: 20px;
+    }
+
+
+    /*llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+
+    main .main-container .spring-discounts-and-keyboard-container .inner .keyboard{
+        width: 134px;
+    }
 }
 
 @media screen and (max-width: 960px) {

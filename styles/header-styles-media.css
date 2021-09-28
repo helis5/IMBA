@@ -84,6 +84,12 @@
         background-color: inherit;
     }
 
+    header .header-container section.main-part-media .cart-and-strips{
+        display: flex;
+        justify-content: space-between;
+        width: 60px;
+    }
+
     header .header-container section.main-part-media .strips{
         display: flex;
         flex-direction: column;
@@ -103,6 +109,7 @@
         border-radius: 6px;
         background-color: #FFC602;
     }
+
 
     header .header-container .inner section.menu {
         display: none;
