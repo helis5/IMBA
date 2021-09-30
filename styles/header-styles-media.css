@@ -40,6 +40,7 @@
 
     header .header-container .inner section.main-part-media img{
         width: 20px;
+        min-width: 20px;
     }
 
     header .header-container .inner section.main-part-media .search{

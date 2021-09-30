@@ -98,7 +98,6 @@
 
     }
 
-
     main .main-container .stock-container .inner .options {
         justify-content: center;
     }
@@ -106,27 +105,47 @@
 
     main .main-container .spring-discounts-and-keyboard-container{
         height: 58px;
+        margin-bottom: 32px;
+    }
+
+    main .main-container .spring-discounts-and-keyboard-container .inner{
+        display: flex;
+        justify-content: space-between;
     }
 
     main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts p.big-text {
-        font-size: 18.56px;
+        font-size: 15px;
         margin-top: 10px;
     }
 
     main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts p.small-text {
-        font-size: 10.44px;
+        font-size: 10px;
         margin-bottom: 10px;
     }
 
     main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts{
-        min-width: auto;
+        min-width: 149px;
+        width: 149px;
+        z-index: 10;
+    }
+
+    main .main-container .spring-discounts-and-keyboard-container .inner .keyboard{
+        width: 120px;
+        position: relative;
     }
 
     /*llllllllllllllllllllllllllllllllllllllllllllllllllllllllllll*/
 
+    main .main-container .top-sales-container{
+        width: 100%;
+        height: 1110px;
+    }
+
     main .main-container .top-sales-container .inner{
         display: flex;
+        height: inherit;
         flex-direction: column;
+        padding: 0;
     }
 
     main .main-container .top-sales-container .inner .flipping{
@@ -134,6 +153,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 0 17px;
     }
 
     main .main-container .top-sales-container .inner .flipping .leaf-through{
@@ -170,60 +190,87 @@
         height: 11px;
     }
 
+
     main .main-container .top-sales-container .inner .flipping .leaf-through button svg{
 
     }
 
-
     main .main-container .top-sales-container .inner .options {
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: space-between;
-        height: 1114px;
+        height: 1110px;
     }
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container{
         width: 100%;
         height: 403px;
-        padding: 40px 10px;
+        padding: 40px 0 40px 10px;
     }
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers{
         display: flex;
+        width: 100%;
         justify-content: space-between;
     }
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text{
-        height: 180px;
+        width: 164px;
+        max-width: 164px;
     }
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text .big-text {
-        font-size: 38px;
+        font-size: 30px;
     }
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text .small-text {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text button {
         width: 109px;
         height: 30px;
-        font-size: 13px;
+        font-size: 15px;
         margin-top: 15px;
     }
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img{
-        width: 169px;
-        height: 241px;
+        width: 130px;
         margin-top: 20px;
     }
 
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img img{
+
+    }
+
+
+    main .main-container .top-sales-container .inner .options .option{
+        width: 226px;
+        height: 520px;
+    }
+
+    main .main-container .subscribe-container .email-subscribe{
+        width: 343px;
+        height: 30px;
+    }
+
+    main .main-container .subscribe-container .email-subscribe .input{
+        width: 242px;
+
+    }
+
+    main .main-container .subscribe-container .email-subscribe .input input{
+        font-weight: 500;
+        font-size: 8.7px;
+    }
+
+    main .main-container .subscribe-container .email-subscribe button{
+        width: 101px;
+        font-weight: bold;
+        font-size: 8.7px;
+    }
 
     /*llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll*/
-
-    main .main-container .spring-discounts-and-keyboard-container .inner .keyboard{
-        width: 134px;
-    }
 }
 
 @media screen and (max-width: 960px) {

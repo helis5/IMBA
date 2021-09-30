@@ -6,7 +6,7 @@ footer {
 
 footer #footer-container {
     width: inherit;
-    height: 343px;
+    height: inherit;
 }
 
 footer #footer-container .inner{
@@ -21,6 +21,14 @@ footer #footer-container .inner .columns{
     width: inherit;
     height: 244px;
     color: #444444;
+}
+
+footer #footer-container .inner .columns .column-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 485px;
+    height: 240px;
 }
 
 footer #footer-container .inner .columns .column{
@@ -91,6 +99,10 @@ footer #footer-container .inner .columns .column a.paragraph:hover svg{
     margin-right: 6px;
     min-width: 6px;
     min-height: 6px;
+}
+
+footer #footer-container .inner .social-network{
+    display: none;
 }
 
 footer #under-the-footer-container {
