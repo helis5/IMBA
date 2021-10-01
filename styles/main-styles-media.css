@@ -42,6 +42,7 @@
 
     main .main-container section.discount-container .discount-and-images .discount button{
         margin-top: 25px;
+        outline: 0;
     }
 
     main .main-container section.discount-container .discount-and-images .discount button p {
@@ -79,6 +80,7 @@
         width: 20px;
         height: 20px;
         padding: 0;
+        outline: 0;
     }
 
     main .main-container .stock-container .inner .flipping .leaf-through button:hover{
@@ -175,6 +177,7 @@
         width: 20px;
         height: 20px;
         padding: 0;
+        outline: 0;
     }
 
     main .main-container .top-sales-container .inner .flipping .leaf-through button:hover{
@@ -268,6 +271,7 @@
         width: 101px;
         font-weight: bold;
         font-size: 8.7px;
+        outline: 0;
     }
 
     /*llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll*/
