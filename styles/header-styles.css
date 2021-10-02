@@ -231,6 +231,21 @@ header .header-container section.menu button svg{
     margin-left: 18px;
 }
 
+header aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateX(-100%);  /*Сдвиг влево на 100%*/
+    transition: .3s;
+}
+
+header aside.open { /*При открытии*/
+    transform: translateX(0%);
+    transition: .3s;
+}
+
 
 
 

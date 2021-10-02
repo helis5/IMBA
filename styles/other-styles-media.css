@@ -10,6 +10,141 @@
     .no-media{
         display: none !important;
     }
+
+    header aside.open { /*При открытии*/
+        transform: translateX(0%);
+        transition: .3s;
+    }
+
+    aside.mobile-menu {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-color: #00000070;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);  /*Сдвиг влево на 100%*/
+        transition: .3s;
+    }
+
+    aside.mobile-menu .mobile-menu-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 301px;
+        width: 100%;
+        height: 100vh;
+        background-color: #FFC602;
+    }
+
+    aside.mobile-menu .mobile-menu-container .header-block .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 105px;
+        height: 24px;
+    }
+
+    aside.mobile-menu .mobile-menu-container .header-block button{
+        border: 0;
+        background-color: inherit;
+    }
+
+    aside.mobile-menu .mobile-menu-container .header-block .logo p{
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    aside.mobile-menu .mobile-menu-container .header-block .logo img{
+        width: 24px;
+    }
+
+
+    aside.mobile-menu .mobile-menu-container .header-block {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        align-items: center;
+        padding: 2px 16px;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block {
+        height: 500px;
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 16px;
+        margin-top: 6px;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu{
+        margin-top: 40px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options{
+        padding: 0 59px 0 16px;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options a{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        outline: 0;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options a:hover{
+        color: white;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options a:hover svg path {
+        fill: white;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options hr{
+        background-color: white;
+        height: 1px;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options a p{
+        margin: 0 11px 0 0;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu .settings{
+        padding: 0 59px 0 16px;
+        margin-top: 5px;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu .settings a{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        outline: 0;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu .settings a:hover{
+        color: white;
+    }
+
+    aside.mobile-menu .mobile-menu-container .main-block .menu .settings a p{
+        margin: 0 11px 0 0;
+    }
+
+    aside.mobile-menu .mobile-menu-container .social-network{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 231px;
+        margin-left: 11px;
+    }
+
+    aside.mobile-menu .mobile-menu-container .social-network svg:hover path{
+        fill: white;
+    }
 }
 
 @media screen and (max-width: 960px) {

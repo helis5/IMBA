@@ -72,3 +72,7 @@ button{
     height: 100%;
 }
 
+header aside{
+    display: none;
+}
+
