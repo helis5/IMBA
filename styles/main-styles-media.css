@@ -5,20 +5,26 @@
 @media screen and (max-width: 1140px) {
     main .main-container section.discount-container {
         height: 200px;
+        background-color: #FFC602;
+    }
+
+    main .main-container section.discount-container .background-elements{
+        display: none;
     }
 
     main .main-container section.discount-container .person {
         width: 195px;
+        margin-left: 0;
     }
 
-    main .main-container section.discount-container .discount-and-images{
+    main .main-container section.discount-container .discount-and-images {
         width: 270px;
         min-width: 270px;
         height: 165px;
         padding: 0;
     }
 
-    main .main-container section.discount-container .discount-and-images .images{
+    main .main-container section.discount-container .discount-and-images .images {
         width: 150px;
         height: 20px;
         margin-bottom: 30px;
@@ -28,7 +34,7 @@
         height: 19px;
     }
 
-    main .main-container section.discount-container .discount-and-images .discount .big-text{
+    main .main-container section.discount-container .discount-and-images .discount .big-text {
         font-size: 35px;
     }
 
@@ -40,7 +46,7 @@
         font-size: 10px;
     }
 
-    main .main-container section.discount-container .discount-and-images .discount button{
+    main .main-container section.discount-container .discount-and-images .discount button {
         margin-top: 25px;
         outline: 0;
     }
@@ -49,68 +55,23 @@
         font-size: 10px;
     }
 
-    main .main-container .stock-container .inner{
+    main .main-container .stock-container .inner {
         display: flex;
         flex-direction: column;
     }
 
-    main .main-container .stock-container .inner .flipping{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    main .main-container .stock-container .inner .flipping .leaf-through{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 50px;
-        height: 17px;
-    }
-
-    main .main-container .stock-container .inner .flipping .leaf-through button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: inherit;
-        border: 1px solid #D3DBE6;
-        border-radius: 50px;
-        width: 20px;
-        height: 20px;
-        padding: 0;
-        outline: 0;
-    }
-
-    main .main-container .stock-container .inner .flipping .leaf-through button:hover{
-        border: 1px solid #FFC602;
-    }
-
-    main .main-container .stock-container .inner .flipping .leaf-through button:hover svg path{
-        fill: #FFC602;
-    }
-
-    main .main-container .stock-container .inner .flipping .leaf-through button:hover svg {
-        width: 8px;
-        height: 11px;
-    }
-
-    main .main-container .stock-container .inner .flipping .leaf-through button svg{
-
-    }
 
     main .main-container .stock-container .inner .options {
         justify-content: center;
     }
 
 
-    main .main-container .spring-discounts-and-keyboard-container{
+    main .main-container .spring-discounts-and-keyboard-container {
         height: 58px;
         margin-bottom: 32px;
     }
 
-    main .main-container .spring-discounts-and-keyboard-container .inner{
+    main .main-container .spring-discounts-and-keyboard-container .inner {
         display: flex;
         justify-content: space-between;
     }
@@ -125,32 +86,32 @@
         margin-bottom: 10px;
     }
 
-    main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts{
+    main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts {
         min-width: 149px;
         width: 149px;
         z-index: 10;
     }
 
-    main .main-container .spring-discounts-and-keyboard-container .inner .keyboard{
+    main .main-container .spring-discounts-and-keyboard-container .inner .keyboard {
         width: 120px;
         position: relative;
     }
 
     /*llllllllllllllllllllllllllllllllllllllllllllllllllllllllllll*/
 
-    main .main-container .top-sales-container{
+    main .main-container .top-sales-container {
         width: 100%;
         height: 1110px;
     }
 
-    main .main-container .top-sales-container .inner{
+    main .main-container .top-sales-container .inner {
         display: flex;
         height: inherit;
         flex-direction: column;
         padding: 0;
     }
 
-    main .main-container .top-sales-container .inner .flipping{
+    main .main-container .top-sales-container .inner .flipping {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -158,45 +119,6 @@
         padding: 0 17px;
     }
 
-    main .main-container .top-sales-container .inner .flipping .leaf-through{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 50px;
-        height: 17px;
-    }
-
-    main .main-container .top-sales-container .inner .flipping .leaf-through button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: inherit;
-        border: 1px solid #D3DBE6;
-        border-radius: 50px;
-        width: 20px;
-        height: 20px;
-        padding: 0;
-        outline: 0;
-    }
-
-    main .main-container .top-sales-container .inner .flipping .leaf-through button:hover{
-        border: 1px solid #FFC602;
-    }
-
-    main .main-container .top-sales-container .inner .flipping .leaf-through button:hover svg path{
-        fill: #FFC602;
-    }
-
-    main .main-container .top-sales-container .inner .flipping .leaf-through button:hover svg {
-        width: 8px;
-        height: 11px;
-    }
-
-
-    main .main-container .top-sales-container .inner .flipping .leaf-through button svg{
-
-    }
 
     main .main-container .top-sales-container .inner .options {
         align-items: center;
@@ -205,19 +127,19 @@
         height: 1110px;
     }
 
-    main .main-container .top-sales-container .inner .options .choice-of-gamers-container{
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container {
         width: 100%;
         height: 403px;
         padding: 40px 0 40px 10px;
     }
 
-    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers{
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers {
         display: flex;
         width: 100%;
         justify-content: space-between;
     }
 
-    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text{
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text {
         width: 164px;
         max-width: 164px;
     }
@@ -237,37 +159,37 @@
         margin-top: 15px;
     }
 
-    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img{
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img {
         width: 130px;
         margin-top: 20px;
     }
 
-    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img img{
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img img {
 
     }
 
 
-    main .main-container .top-sales-container .inner .options .option{
+    main .main-container .top-sales-container .inner .options .option {
         width: 226px;
         height: 520px;
     }
 
-    main .main-container .subscribe-container .email-subscribe{
+    main .main-container .subscribe-container .email-subscribe {
         width: 343px;
         height: 30px;
     }
 
-    main .main-container .subscribe-container .email-subscribe .input{
+    main .main-container .subscribe-container .email-subscribe .input {
         width: 242px;
 
     }
 
-    main .main-container .subscribe-container .email-subscribe .input input{
+    main .main-container .subscribe-container .email-subscribe .input input {
         font-weight: 500;
         font-size: 8.7px;
     }
 
-    main .main-container .subscribe-container .email-subscribe button{
+    main .main-container .subscribe-container .email-subscribe button {
         width: 101px;
         font-weight: bold;
         font-size: 8.7px;

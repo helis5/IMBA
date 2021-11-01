@@ -7,7 +7,7 @@
         padding: 0 17px;
     }
 
-    .no-media{
+    .no-media {
         display: none !important;
     }
 
@@ -25,7 +25,7 @@
         z-index: 100;
         top: 0;
         left: 0;
-        transform: translateX(-100%);  /*Сдвиг влево на 100%*/
+        transform: translateX(-100%); /*Сдвиг влево на 100%*/
         transition: .3s;
     }
 
@@ -38,7 +38,7 @@
         background-color: #FFC602;
     }
 
-    aside.mobile-menu .mobile-menu-container .header-block .logo{
+    aside.mobile-menu .mobile-menu-container .header-block .logo {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -47,17 +47,17 @@
         height: 24px;
     }
 
-    aside.mobile-menu .mobile-menu-container .header-block button{
+    aside.mobile-menu .mobile-menu-container .header-block button {
         border: 0;
         background-color: inherit;
     }
 
-    aside.mobile-menu .mobile-menu-container .header-block .logo p{
+    aside.mobile-menu .mobile-menu-container .header-block .logo p {
         font-weight: bold;
         font-size: 24px;
     }
 
-    aside.mobile-menu .mobile-menu-container .header-block .logo img{
+    aside.mobile-menu .mobile-menu-container .header-block .logo img {
         width: 24px;
     }
 
@@ -80,24 +80,24 @@
         margin-top: 6px;
     }
 
-    aside.mobile-menu .mobile-menu-container .main-block .menu{
+    aside.mobile-menu .mobile-menu-container .main-block .menu {
         margin-top: 40px;
         font-weight: 500;
         font-size: 14px;
     }
 
-    aside.mobile-menu .mobile-menu-container .main-block .menu .options{
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options {
         padding: 0 59px 0 16px;
     }
 
-    aside.mobile-menu .mobile-menu-container .main-block .menu .options a{
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options a {
         display: flex;
         align-items: center;
         height: 40px;
         outline: 0;
     }
 
-    aside.mobile-menu .mobile-menu-container .main-block .menu .options a:hover{
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options a:hover {
         color: white;
     }
 
@@ -105,32 +105,32 @@
         fill: white;
     }
 
-    aside.mobile-menu .mobile-menu-container .main-block .menu .options hr{
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options hr {
         background-color: white;
         height: 1px;
     }
 
-    aside.mobile-menu .mobile-menu-container .main-block .menu .options a p{
+    aside.mobile-menu .mobile-menu-container .main-block .menu .options a p {
         margin: 0 11px 0 0;
     }
 
-    aside.mobile-menu .mobile-menu-container .main-block .menu .settings{
+    aside.mobile-menu .mobile-menu-container .main-block .menu .settings {
         padding: 0 59px 0 16px;
         margin-top: 5px;
     }
 
-    aside.mobile-menu .mobile-menu-container .main-block .menu .settings a{
+    aside.mobile-menu .mobile-menu-container .main-block .menu .settings a {
         display: flex;
         align-items: center;
         height: 40px;
         outline: 0;
     }
 
-    aside.mobile-menu .mobile-menu-container .main-block .menu .settings a:hover{
+    aside.mobile-menu .mobile-menu-container .main-block .menu .settings a:hover {
         color: white;
     }
 
-    aside.mobile-menu .mobile-menu-container .main-block .menu .settings a p{
+    aside.mobile-menu .mobile-menu-container .main-block .menu .settings a p {
         margin: 0 11px 0 0;
     }
 
@@ -138,7 +138,7 @@
         fill: white;
     }
 
-    aside.mobile-menu .mobile-menu-container .social-network{
+    aside.mobile-menu .mobile-menu-container .social-network {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -146,7 +146,7 @@
         margin-left: 11px;
     }
 
-    aside.mobile-menu .mobile-menu-container .social-network svg:hover path{
+    aside.mobile-menu .mobile-menu-container .social-network svg:hover path {
         fill: white;
     }
 }

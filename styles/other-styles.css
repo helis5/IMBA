@@ -20,6 +20,7 @@ html {
     display: block;
     height: 100%;
     width: 100%;
+    font-family: Montserrat , Verdana, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -28,7 +29,6 @@ body {
     justify-content: space-between;
     margin: 0;
     width: 100%;
-    font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
 /*Контейнер обертка*/
@@ -54,25 +54,25 @@ hr {
     margin: 0;
 }
 
-.media{
+.media {
     display: none;
 }
 
-section.mobile-menu{
+section.mobile-menu {
     display: none;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
-.vertical-stripe{
+.vertical-stripe {
     background-color: #E8ECF7;
     width: 2px;
     height: 100%;
 }
 
-header aside{
+header aside {
     display: none;
 }
 

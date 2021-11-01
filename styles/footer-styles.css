@@ -27,7 +27,7 @@ footer #footer-container .inner .columns .column-group{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 485px;
+    width: 42%;
     height: 240px;
 }
 
