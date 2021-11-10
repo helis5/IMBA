@@ -36,6 +36,7 @@
         width: 100%;
         height: 100vh;
         background-color: #FFC602;
+        z-index: 5000;
     }
 
     aside.mobile-menu .mobile-menu-container .header-block .logo {
