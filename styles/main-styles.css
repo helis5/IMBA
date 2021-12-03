@@ -19,10 +19,10 @@ main .main-container section.discount-container {
     width: 100%;
     height: 521px;
     z-index: 1;
-/*    background-color: #FFC602;*/
+    /*    background-color: #FFC602;*/
 }
 
-main .main-container section.discount-container .inner{
+main .main-container section.discount-container .inner {
     position: absolute;
     z-index: 5000;
 }
@@ -34,15 +34,15 @@ main .main-container section.discount-container .background-elements {
 }
 
 
-main .main-container section.discount-container .background-elements img{
+main .main-container section.discount-container .background-elements img {
     position: absolute;
 }
 
-main .main-container section.discount-container .background-elements img.group-357{
+main .main-container section.discount-container .background-elements img.group-357 {
     top: 48%;
 }
 
-main .main-container section.discount-container .background-elements .rectangle-322{
+main .main-container section.discount-container .background-elements .rectangle-322 {
     width: 100%;
     background-color: #FFC602;
     height: 325px;
@@ -50,31 +50,31 @@ main .main-container section.discount-container .background-elements .rectangle-
     z-index: -1000;
 }
 
-main .main-container section.discount-container .background-elements .rectangle-321{
+main .main-container section.discount-container .background-elements .rectangle-321 {
     z-index: 1000;
     width: 100%;
     background-color: #EDEDED;
     height: 196px;
 }
 
-main .main-container section.discount-container .background-elements img.subtract{
-    top:18.3%;
+main .main-container section.discount-container .background-elements img.subtract {
+    top: 18.3%;
     z-index: 1000;
 }
 
-main .main-container section.discount-container .background-elements img.mask-group{
+main .main-container section.discount-container .background-elements img.mask-group {
     top: 37.7%;
 }
 
-main .main-container section.discount-container .background-elements img.o{
+main .main-container section.discount-container .background-elements img.o {
     left: 0.5%;
 }
 
-main .main-container section.discount-container .background-elements img.o-1{
-    top:58%;
+main .main-container section.discount-container .background-elements img.o-1 {
+    top: 58%;
 }
 
-main .main-container section.discount-container .background-elements img.o-2{
+main .main-container section.discount-container .background-elements img.o-2 {
     left: 90%;
 }
 
@@ -129,6 +129,10 @@ main .main-container .stock-container .inner .flipping .leaf-through button svg 
 
 }
 
+main .main-container section.discount-container .background-elements-mob {
+    display: none;
+}
+
 main .main-container section.discount-container .inner {
     display: flex;
     flex-direction: row;
@@ -139,7 +143,7 @@ main .main-container section.discount-container .inner {
 }
 
 main .main-container section.discount-container .person {
-    width: 489px;
+    width: 492px;
     margin-left: 76px;
 }
 
@@ -338,17 +342,44 @@ main .main-container .spring-discounts-and-keyboard {
 }
 
 main .main-container .spring-discounts-and-keyboard-container {
+    display: flex;
     margin-top: 85px;
-    background-color: #FFC602;
+    background-color: #FFC90D;
+    position: relative;
 }
+
+main .main-container .spring-discounts-and-keyboard-container .background-elements {
+    /*    position: absolute;*/
+    display: flex;
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    /*    z-index: 1000000;*/
+}
+
+main .main-container .spring-discounts-and-keyboard-container .background-elements .imbaimba {
+    position: absolute;
+}
+
+main .main-container .spring-discounts-and-keyboard-container .background-elements .o {
+    position: absolute;
+}
+
+main .main-container .spring-discounts-and-keyboard-container .background-elements .o-1 {
+    position: absolute;
+}
+
 
 main .main-container .spring-discounts-and-keyboard-container .inner {
     display: flex;
+    position: absolute;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: inherit;
+    z-index: 10000;
+    /*    display: none;!important;*/
 }
 
 main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts {
@@ -383,7 +414,7 @@ main .main-container .top-sales-container {
     width: 100%;
     height: 761px;
     background-color: #FCFDFD;
-/*    z-index: -10000;*/
+    /*    z-index: -10000;*/
 }
 
 main .main-container .top-sales-container .inner {
@@ -464,48 +495,48 @@ main .main-container .top-sales-container .inner .options .choice-of-gamers-cont
     width: 482px;
     height: 520px;
     background-color: rgba(255, 198, 2, 0.09);
-/*    padding: 60px 36px;*/
+    /*    padding: 60px 36px;*/
     position: relative;
     display: flex;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements {
     display: flex;
     flex-direction: row;
     position: relative;
     width: 100%;
     height: 100%;
-/*    background-color: rgba(76, 175, 80, 0.47);*/
-/*    z-index: -10000;*/
+    /*    background-color: rgba(76, 175, 80, 0.47);*/
+    /*    z-index: -10000;*/
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements .o{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements .o {
     position: absolute;
-/*    width: 91%;*/
+    /*    width: 91%;*/
     z-index: 1000;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements .mask-group{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements .mask-group {
     position: absolute;
     z-index: 10000;
-/*    width: 130px;*/
+    /*    width: 130px;*/
     left: 65%;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements .imbaimba{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements .imbaimba {
     position: absolute;
     z-index: 10000;
-/*    width: 91%;*/
+    /*    width: 91%;*/
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements .yellow-block{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements .yellow-block {
     width: 65%;
     height: 100%;
     background-color: #FFC90D;
     position: absolute;
 }
 
-main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements .gray-block{
+main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements .gray-block {
     width: 35%;
     height: 100%;
     background-color: #EDEDED;
@@ -521,7 +552,7 @@ main .main-container .top-sales-container .inner .options .choice-of-gamers-cont
     position: absolute;
     z-index: 10000;
     margin: 60px 36px;
-/*    display: none;!important;*/
+    /*    display: none;!important;*/
 }
 
 main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text {

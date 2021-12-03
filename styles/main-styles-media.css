@@ -4,27 +4,104 @@
 
 @media screen and (max-width: 1140px) {
     main .main-container section.discount-container {
-        height: 200px;
-        background-color: #FFC602;
+        height: 146px;
+        /*        background-color: #FFC602;*/
     }
 
-    main .main-container section.discount-container .background-elements{
+    main .main-container section.discount-container .background-elements {
         display: none;
     }
 
+    main .main-container section.discount-container .background-elements-mob {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    main .main-container section.discount-container .background-elements-mob .background-elements-mob-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .main-container section.discount-container .background-elements-mob .left{
+        position: relative;
+        height: 100%;
+        width: 28%;
+    }
+
+    main .main-container section.discount-container .background-elements-mob .right{
+        position: relative;
+        height: 100%;
+        width: 3.7%;
+    }
+
+    main .main-container section.discount-container .background-elements-mob .O {
+        position: absolute;
+        z-index: 1000;
+    }
+
+    main .main-container section.discount-container .background-elements-mob .O-1 {
+        position: absolute;
+        top: 84px;
+        z-index: 1000;
+    }
+
+    main .main-container section.discount-container .background-elements-mob .O-2 {
+        position: absolute;
+        z-index: 1000;
+    }
+
+    main .main-container section.discount-container .background-elements-mob .subtract {
+        position: absolute;
+        top: 18.05px;
+        height: ;
+        z-index: 1000;
+    }
+
+    main .main-container section.discount-container .background-elements-mob .mask-group {
+        position: absolute;
+        top: 45.8px;
+        height: 29.25px;
+        z-index: 1000;
+    }
+
+    main .main-container section.discount-container .background-elements-mob .rectangle-321 {
+        position: absolute;
+        width: 100%;
+        height: 48px;
+        background-color: #EDEDED;
+        z-index: 100;
+    }
+
+    main .main-container section.discount-container .background-elements-mob .rectangle-322 {
+        position: absolute;
+        width: 100%;
+        top: 47px;
+        height: 99px;
+        background-color: #FFC602;
+        z-index: 100;
+    }
+
     main .main-container section.discount-container .person {
-        width: 195px;
+        width: 140px;
         margin-left: 0;
     }
 
     main .main-container section.discount-container .discount-and-images {
         width: 270px;
         min-width: 270px;
-        height: 165px;
+        height: 130px;
         padding: 0;
     }
 
     main .main-container section.discount-container .discount-and-images .images {
+        display: flex;
+        align-items: start;
         width: 150px;
         height: 20px;
         margin-bottom: 30px;
@@ -35,25 +112,27 @@
     }
 
     main .main-container section.discount-container .discount-and-images .discount .big-text {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     main .main-container section.discount-container .discount-and-images .discount .middle-text {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     main .main-container section.discount-container .discount-and-images .discount .small-text {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     main .main-container section.discount-container .discount-and-images .discount button {
-        margin-top: 25px;
+        margin-top: 0;
         outline: 0;
+        height: 15px;
     }
 
     main .main-container section.discount-container .discount-and-images .discount button p {
-        font-size: 10px;
+        font-size: 8px;
     }
+
 
     main .main-container .stock-container .inner {
         display: flex;
@@ -87,8 +166,8 @@
     }
 
     main .main-container .spring-discounts-and-keyboard-container .inner .spring-discounts {
-        min-width: 149px;
-        width: 149px;
+        min-width: 150px;
+        width: 150px;
         z-index: 10;
     }
 
@@ -98,7 +177,6 @@
     }
 
     /*llllllllllllllllllllllllllllllllllllllllllllllllllllllllllll*/
-
     main .main-container .top-sales-container {
         width: 100%;
         height: 1110px;
@@ -128,15 +206,20 @@
     }
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container {
-        width: 100%;
+        width: inherit;
         height: 403px;
         padding: 40px 0 40px 10px;
     }
 
+    main .main-container .top-sales-container .inner .options .choice-of-gamers-container .background-elements {
+        display: none;
+    }
+
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers {
         display: flex;
-        width: 100%;
+        width: 98%;
         justify-content: space-between;
+        margin: 0;
     }
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .text {
@@ -161,7 +244,8 @@
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img {
         width: 130px;
-        margin-top: 20px;
+        position: unset;
+        height: 90%;
     }
 
     main .main-container .top-sales-container .inner .options .choice-of-gamers-container .choice-of-gamers .img img {
